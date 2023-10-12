@@ -6,7 +6,7 @@
 #    By: marykman <marykman@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/09 20:11:42 by marykman          #+#    #+#              #
-#    Updated: 2023/10/12 19:35:05 by marykman         ###   ########.fr        #
+#    Updated: 2023/10/12 20:17:50 by marykman         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,6 +38,6 @@ clean:
 fclean:		clean
 	rm -rf ${NAME}
 
-re:			fclean re
+re:			fclean all
 
 .PHONY:		all clean fclean re

@@ -6,7 +6,7 @@
 /*   By: marykman <marykman@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 17:46:55 by marykman          #+#    #+#             */
-/*   Updated: 2023/10/12 17:24:31 by marykman         ###   ########.fr       */
+/*   Updated: 2023/10/12 20:21:36 by marykman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ int		ft_count_if(char **tab, int (*f)(char*));
 
 int	main(void)
 {
-	write(1, "test", -10);
+	for (int n = 0; n < 30; n++)
+		printf("%d! = %d\n", n, ft_recursive_factorial(n));
 	return (0);
 }

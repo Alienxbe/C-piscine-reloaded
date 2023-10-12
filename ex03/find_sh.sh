@@ -1,3 +1,3 @@
 #!/bin/sh
 
-find . -type f -name ".sh" -print | sed "s/.///" | sed "s/(.).sh/\1/"
+find . -type f -name "*.sh" | sed 's/.*\///' | rev |  cut -f 2- -d '.' | rev

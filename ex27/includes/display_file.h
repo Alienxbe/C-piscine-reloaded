@@ -6,7 +6,7 @@
 /*   By: marykman <marykman@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 12:52:49 by marykman          #+#    #+#             */
-/*   Updated: 2023/10/12 18:54:26 by marykman         ###   ########.fr       */
+/*   Updated: 2023/10/12 20:17:38 by marykman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define DISPLAY_FILE_H
 
 # define BUFFER_SIZE		256
-# define NO_ARGS_MSG		"File name is missing.\n"
+# define NO_ARGS_MSG		"File name missing.\n"
 # define TOO_MANY_ARGS_MSG	"Too many arguments.\n"
 # define CANT_READ_MSG		"Cannot read file.\n"
 
