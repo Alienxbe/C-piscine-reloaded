@@ -6,7 +6,7 @@
 /*   By: marykman <marykman@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 17:46:55 by marykman          #+#    #+#             */
-/*   Updated: 2023/10/09 20:08:01 by marykman         ###   ########.fr       */
+/*   Updated: 2023/10/12 17:24:31 by marykman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "ft_abs.h"
+void	ft_putchar(char c);
 
 void	ft_print_alphabet(void);
 void	ft_print_numbers(void);
@@ -32,14 +32,12 @@ int		ft_strlen(char *str);
 int		ft_strcmp(char *s1, char *s2);
 char	*ft_strdup(char *src);
 int		*ft_range(int min, int max);
+void	ft_foreach(int *tab, int length, void (*f)(int));
+int		ft_count_if(char **tab, int (*f)(char*));
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
 
 int	main(void)
 {
-	printf("%d\n", ABS(5));
+	write(1, "test", -10);
 	return (0);
 }
