@@ -6,7 +6,7 @@
 #    By: marykman <marykman@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/09 20:11:42 by marykman          #+#    #+#              #
-#    Updated: 2023/10/12 18:56:42 by marykman         ###   ########.fr        #
+#    Updated: 2023/10/12 19:35:05 by marykman         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,10 +33,10 @@ $(NAME):	${OBJS}
 all:		${NAME}
 
 clean:
-	rm -r ${OBJS}
+	rm -rf ${OBJS}
 
 fclean:		clean
-	rm -r ${NAME}
+	rm -rf ${NAME}
 
 re:			fclean re
 
